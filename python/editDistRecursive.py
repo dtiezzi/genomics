@@ -11,8 +11,8 @@ def editDistRecursive(x, y):
 						editDistRecursive(x[:-1], y) + 1,
 						editDistRecursive(x, y[:-1]) + 1)
 
-a= "Shakespeare"
-b= "shake spear"
+a= "OnceUponATime"
+b= "Once potAnime"
 sd= d.datetime.now() ;
 print(editDistRecursive(a, b))
 print((d.datetime.now() - sd).total_seconds())
