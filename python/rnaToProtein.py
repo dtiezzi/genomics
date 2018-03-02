@@ -25,6 +25,6 @@ map = {"UUU":"F", "UUC":"F", "UUA":"L", "UUG":"L",
     "GAU":"D", "GAC":"D", "GAA":"E", "GAG":"E",
     "GGU":"G", "GGC":"G", "GGA":"G", "GGG":"G",}
 
-rna= input("Type or paste your RNA sequence:")
+rna= input("Type or paste your RNA sequence:\n")
 
 print(rnaToProtein(rna))
