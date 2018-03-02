@@ -1,0 +1,16 @@
+# Exemple for a directory structure:
+
+GDC_Download$ tree -L 1
+.
+├── Download_Files
+├── FASTQ_Files
+├── gdc-client
+├── Manifest
+├── OUTPUT_Dir
+├── quanTIsamples.r
+├── QUANTISEQ_Pipeline
+├── quanTIseq.sh
+├── Results_QuanTIseq
+├── SAMPLES_Txt
+├── Test_Files
+└── Tokens
