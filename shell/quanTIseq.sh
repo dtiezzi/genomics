@@ -43,7 +43,7 @@ echo "Files from $STARTFILES to $ENDFILES downloaded" | mailx -s 'Download_Done'
 
 	cd FASTQ_Files ;
 
-	bash ${QUANTISEQ}/quanTIseq_pipeline.sh --tumor TRUE --inputfile="quanTIseq_samples.txt" --prefix="quanTIseq__samples_${STARTFILES}_TO_${ENDFILES}" --threads=8 --outputdir=$OUTPUTDIR ;
+	bash ${QUANTISEQ}/quanTIseq_pipeline.sh --inputfile="quanTIseq_samples.txt" --tumor=TRUE --prefix="quanTIseq__samples_${STARTFILES}_TO_${ENDFILES}" --threads=8 --outputdir=$OUTPUTDIR ;
 
 	mv quanTIseq_samples.txt quanTIseq_Loop${i}_samples_${STARTFILES}_TO_${ENDFILES}.txt
 
