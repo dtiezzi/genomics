@@ -1,6 +1,9 @@
 import argparse, os
 from time import sleep
 
+### Usage in python3:
+# python split_fastq.py -d [fastq files directory] -o [output directory]
+
 ap = argparse.ArgumentParser()
 ap.add_argument("-d", "--dataset", required = True, help = "path to input directory")
 ap.add_argument("-o", "--output_dir", required = True, help = "path to output directory")
